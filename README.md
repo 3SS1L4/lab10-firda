@@ -1,7 +1,7 @@
 
 # Rapport de Lab 10 : Guide d'installation et d'utilisation de Frida
 **Spécialité :** Cyber Défense (ENSA Marrakech)  
-**Auteur :** AMSOU ISMAIL 
+**Auteur :** AMSOU ISMAIL  
 **Date :** 27 Avril 2026  
 **Cible :** Android Emulator (ia32) - Application : FragFlow
 
