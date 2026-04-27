@@ -25,7 +25,7 @@ L'installation du client Frida et des outils associés a été effectuée sur l'
 python -c "import frida; print(frida.__version__)"
 ```
 > **Capture d'écran 1 :** <img width="1365" height="329" alt="image" src="https://github.com/user-attachments/assets/38584a6f-5864-4b93-9cd0-95b8780f3f8c" />
-
+Concernant ce chemin C:\Users\lenovo\Desktop\ㅤㅤㅤㅤ\frida, j’ai un dossier avec des caractères invisibles.
 ---
 
 ## 3. Étape 2 & 3 : Déploiement du Frida-Server sur Android
