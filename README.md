@@ -60,7 +60,8 @@ Validation de la capacité de Frida à interagir avec la JVM.
 Interception de la fonction `recv` dans la `libc.so`.
 * **Adresse de recv détectée :** `0xed0f3520`
 
-> **Capture d'écran 3 :** [Insérer l'image de la console Frida affichant l'adresse de recv]
+> **Capture d'écran 3 :** <img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/60bc51ff-373d-454a-90dd-541fbee05ad9" />
+
 
 ---
 
