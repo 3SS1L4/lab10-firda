@@ -35,7 +35,8 @@ L'analyse de l'appareil via `adb` a révélé une architecture **x86 (ia32)**.
 ### Déploiement du binaire
 1. **Transfert :** `adb push frida-server /data/local/tmp/`
 2. **Permissions :** `adb shell chmod 755 /data/local/tmp/frida-server`
-3. **Exécution :** Lancé en arrière-plan via `nohup`.
+3. **Exécution :** Lancé en arrière-plan via `nohup`
+4. **Vérification :** `adb shell "ps -A | grep frida"` .
 
 ### Redirection des ports
 ```bash
@@ -48,7 +49,8 @@ La commande `frida-ps -Uai` montre que l'application cible est bien installée :
 * **Nom :** FragFlow
 * **Identifier :** `com.example.fragflow`
 
-> **Capture d'écran 2 :** [Insérer l'image du résultat de frida-ps -Uai montrant FragFlow]
+> **Capture d'écran 2 :** <img width="1362" height="719" alt="image" src="https://github.com/user-attachments/assets/24ca1e04-24c6-460c-b738-bf17131bf4b0" />
+
 
 ---
 
@@ -59,9 +61,14 @@ Validation de la capacité de Frida à interagir avec la JVM.
 
 ### 4.2 Hook Natif (Script 3ssila_native.js)
 Interception de la fonction `recv` dans la `libc.so`.
-* **Adresse de recv détectée :** `0xed0f3520`
+* **Adresse de recv détectée :** `0xe6eb0520`
 
 > **Capture d'écran 3 :** <img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/60bc51ff-373d-454a-90dd-541fbee05ad9" />
+
+<img width="1064" height="245" alt="image" src="https://github.com/user-attachments/assets/0aaa895d-2c1c-4bac-9ac8-8f13c984fd55" />
+
+<img width="873" height="372" alt="image" src="https://github.com/user-attachments/assets/946bc4e9-d527-40ff-affa-88c37d6c2cef" />
+
 
 
 ---
