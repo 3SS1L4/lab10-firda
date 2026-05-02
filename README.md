@@ -92,7 +92,7 @@ Utilisation de `hook_file.js`. L'application a été observée ouvrant :
 * `/data/app/com.example.fragflow-.../base.apk`
 * `/data/user/0/com.example.fragflow/files/profileInstalled`
 
-> **Capture d'écran 4 :** [Insérer l'image des logs de hook_file.js montrant les accès fichiers]
+> **Capture d'écran 4 :** <img width="836" height="324" alt="image" src="https://github.com/user-attachments/assets/835364f5-4cd7-4671-81c0-4c72c237319f" />
 
 ---
 
